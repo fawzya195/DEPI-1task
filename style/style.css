@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family:inter;
+ background-repeat: no-repeat;
+ background-size:cover;
+ background-color: rgba(245, 245, 245, 1);
+ background-image: url(../img/Rectangle\ 1.png);
+ height: 100%;
+
+}
+
+/* start navbar */
+nav {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 63px;
+    padding: 10px;
+}
+.links a {
+    text-decoration: none;
+    margin-left: 24px;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 1);
+    font-weight: 400;
+    display: inline-block;
+    padding: 5px;
+
+}
+
+/* start main section */
+main {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.left_said {
+    margin-top: 80px;
+  
+}
+.left_said p:nth-of-type(1) {
+    font-weight: 700;
+    font-size: 24px;
+    color: rgba(237, 111, 156, 1);
+    line-height: 29.05px;
+}
+.left_said h1 {
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 65.35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.left_said p:nth-of-type(2) {
+    color: rgba(0, 0, 0, 1);
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29.05px;
+    margin-bottom: 25px;
+}
+
+button:nth-of-type(1) {
+    width: 167px;
+    height: 69px;
+    background: rgba(52, 64, 174, 1);
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+    font-size: 24px;
+    border-radius: 20px;
+    border: none;
+    margin-right: 50px;
+    margin-bottom: 15px;
+}
+button:nth-of-type(2) {
+    width: 167px;
+    height: 69px;
+    color: rgba(52, 64, 174, 1);
+    background: rgba(255, 255, 255, 1);
+    font-weight: 600;
+    font-size: 24px;
+    border-radius: 20px;
+    margin-right: 50px;
+    border: 1px solid rgba(52, 64, 174, 1);
+    margin-top: 15px;
+}
+.right_said {
+    margin-top: 40px;
+    animation: move2 2s linear infinite alternate;
+   
+}
+ @keyframes move2 {
+      0%{
+        transform: translate(0px,0px);
+      }
+      50%{
+        transform: translate(0px , -30px);
+      }
+}
+    
